@@ -15,12 +15,10 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "disabled": true,
+        "sku_Mch6GV": {
+          "type": "sku",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "price": {
@@ -49,10 +47,10 @@
         "request_a_quote_hide_price_b2b_easy_quote_sealapps_6GnTmL": {
           "type": "shopify:\/\/apps\/request-a-quote-hide-price-b2b\/blocks\/easy-quote-sealapps\/414e3c56-ba13-45bb-9f54-87077e6b11d9",
           "settings": {
-            "eq_quote_button_color": "#FFFFFF",
+            "eq_quote_button_color": "#ffffff",
             "eq_quote_button_color_hover": "#333333",
             "eq_quote_button_background": "#333333",
-            "eq_quote_button_background_hover": "#FFFFFF",
+            "eq_quote_button_background_hover": "#ffffff",
             "eq_quote_border_color": "#333333",
             "eq_quote_border_color_hover": "#333333",
             "eq_quote_border_width": 2,
@@ -92,7 +90,7 @@
       "block_order": [
         "vendor",
         "title",
-        "caption",
+        "sku_Mch6GV",
         "price",
         "variant_picker",
         "quantity_selector",
