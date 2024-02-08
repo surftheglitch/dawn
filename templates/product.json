@@ -46,26 +46,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "2fdb82f2-07d6-4584-b877-07f0b365d1aa": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>For Bulk Orders, Use Orderform<\/strong>",
-            "text_style": "body"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "clickupload_product_bA7GCz": {
-          "type": "shopify:\/\/apps\/clickupload\/blocks\/product\/e726943a-984c-4d58-8a9c-dd774c76b322",
-          "disabled": true,
-          "settings": {
-            "margin_top": 15,
-            "margin_bottom": 15
-          }
-        },
         "request_a_quote_hide_price_b2b_easy_quote_sealapps_6GnTmL": {
           "type": "shopify:\/\/apps\/request-a-quote-hide-price-b2b\/blocks\/easy-quote-sealapps\/414e3c56-ba13-45bb-9f54-87077e6b11d9",
           "settings": {
@@ -87,6 +67,26 @@
             "eq_quote_button_font_family": "inherit",
             "eq_quote_button_font_weight": "inherit"
           }
+        },
+        "2fdb82f2-07d6-4584-b877-07f0b365d1aa": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>For Bulk Orders, Use Orderform<\/strong>",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "clickupload_product_bA7GCz": {
+          "type": "shopify:\/\/apps\/clickupload\/blocks\/product\/e726943a-984c-4d58-8a9c-dd774c76b322",
+          "disabled": true,
+          "settings": {
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
         }
       },
       "block_order": [
@@ -97,10 +97,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "request_a_quote_hide_price_b2b_easy_quote_sealapps_6GnTmL",
         "2fdb82f2-07d6-4584-b877-07f0b365d1aa",
         "description",
-        "clickupload_product_bA7GCz",
-        "request_a_quote_hide_price_b2b_easy_quote_sealapps_6GnTmL"
+        "clickupload_product_bA7GCz"
       ],
       "settings": {
         "enable_sticky_info": true,
